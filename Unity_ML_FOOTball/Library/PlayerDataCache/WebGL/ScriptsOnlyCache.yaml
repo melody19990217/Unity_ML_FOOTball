@@ -612,4 +612,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - "Assets/\u8DB3\u7403.unity"
-  playerPath: D:/Unity_ML_FOOTball/Unity_ML_FOOTball/Unity_ML_FOOTball/Web
+  playerPath: D:/Unity_ML_FOOTball/Unity_ML_FOOTball/web
