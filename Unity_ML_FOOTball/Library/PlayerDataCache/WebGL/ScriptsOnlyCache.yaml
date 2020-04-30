@@ -53,19 +53,19 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 20456}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 20750}
+      Script: {instanceID: 11926}
     - Class: 114
-      Script: {instanceID: 20800}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 20924}
+      Script: {instanceID: 12656}
     - Class: 114
-      Script: {instanceID: 20928}
+      Script: {instanceID: 13066}
     - Class: 114
-      Script: {instanceID: 21582}
+      Script: {instanceID: 13080}
     - Class: 114
-      Script: {instanceID: 21590}
+      Script: {instanceID: 13270}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -95,6 +95,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: 48aa7e3a10ad49e34c99883f1c252b8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraLogicFree
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -107,10 +113,28 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 07d69ce4a98bc6bb9d8730614c21369e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleCharacterControlFree
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ebdfb4ce0cb83f7ea394ca90a4f9b503
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DemoFree
+  - hash:
+      serializedVersion: 2
+      Hash: 20240431c815058690a3ba9bdfb91802
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookCamera
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -171,6 +195,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6b7677c4aaa7665a0964ff549bbb12a3
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents
+    className: DecisionRequester
+  - hash:
+      serializedVersion: 2
+      Hash: a3ea236b81667ce963577b016d4aef95
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Sensors
+    className: RayPerceptionSensorComponent2D
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -239,6 +275,18 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ball
+  - hash:
+      serializedVersion: 2
+      Hash: 5313aabfeb9a420655b4f15dc4aff040
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Sensors
+    className: RenderTextureSensorComponent
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -275,6 +323,12 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
+      Hash: daab9926a3a56f97180afd52b09f5307
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Demonstrations
+    className: DemonstrationRecorder
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -287,10 +341,22 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 36930db3116562932d730ec657bbfe20
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Sensors
+    className: RayPerceptionSensorComponent3D
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 550cd92f36d03903a502911efc2e95c7
+    assemblyName: Barracuda.dll
+    namespaceName: Barracuda
+    className: NNModel
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -315,6 +381,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 422f48e4fe97392f35c9dde63be9e292
+    assemblyName: Barracuda.dll
+    namespaceName: Barracuda
+    className: NNModelData
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -371,10 +443,46 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: be01a014ffb2484e6cdfdca7c5af1eed
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Policies
+    className: BehaviorParameters
+  - hash:
+      serializedVersion: 2
+      Hash: f9a3fa795fdc45b44f33cc2a28c5a2ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkyboxChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 5d470960c5db2f9c229c37ff99d0996e
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents
+    className: Agent
+  - hash:
+      serializedVersion: 2
+      Hash: afd242f4d08fe7134b665c272625419c
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Demonstrations
+    className: DemonstrationSummary
+  - hash:
+      serializedVersion: 2
       Hash: 8001a5f7502aab37e42206da015e6914
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: bc307d070edf4f5bf960c0d1696cce98
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: MLAgents.Sensors
+    className: CameraSensorComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 73543240b53d978fb572bf058528ae0e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Robot
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -501,114 +609,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 48aa7e3a10ad49e34c99883f1c252b8d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraLogicFree
-  - hash:
-      serializedVersion: 2
-      Hash: 07d69ce4a98bc6bb9d8730614c21369e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SimpleCharacterControlFree
-  - hash:
-      serializedVersion: 2
-      Hash: ebdfb4ce0cb83f7ea394ca90a4f9b503
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DemoFree
-  - hash:
-      serializedVersion: 2
-      Hash: 20240431c815058690a3ba9bdfb91802
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LookCamera
-  - hash:
-      serializedVersion: 2
-      Hash: f9a3fa795fdc45b44f33cc2a28c5a2ca
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SkyboxChanger
-  - hash:
-      serializedVersion: 2
-      Hash: 6b7677c4aaa7665a0964ff549bbb12a3
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents
-    className: DecisionRequester
-  - hash:
-      serializedVersion: 2
-      Hash: a3ea236b81667ce963577b016d4aef95
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Sensors
-    className: RayPerceptionSensorComponent2D
-  - hash:
-      serializedVersion: 2
-      Hash: 5313aabfeb9a420655b4f15dc4aff040
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Sensors
-    className: RenderTextureSensorComponent
-  - hash:
-      serializedVersion: 2
-      Hash: daab9926a3a56f97180afd52b09f5307
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Demonstrations
-    className: DemonstrationRecorder
-  - hash:
-      serializedVersion: 2
-      Hash: 36930db3116562932d730ec657bbfe20
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Sensors
-    className: RayPerceptionSensorComponent3D
-  - hash:
-      serializedVersion: 2
-      Hash: 550cd92f36d03903a502911efc2e95c7
-    assemblyName: Barracuda.dll
-    namespaceName: Barracuda
-    className: NNModel
-  - hash:
-      serializedVersion: 2
-      Hash: 422f48e4fe97392f35c9dde63be9e292
-    assemblyName: Barracuda.dll
-    namespaceName: Barracuda
-    className: NNModelData
-  - hash:
-      serializedVersion: 2
-      Hash: be01a014ffb2484e6cdfdca7c5af1eed
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Policies
-    className: BehaviorParameters
-  - hash:
-      serializedVersion: 2
-      Hash: 5d470960c5db2f9c229c37ff99d0996e
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents
-    className: Agent
-  - hash:
-      serializedVersion: 2
-      Hash: afd242f4d08fe7134b665c272625419c
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Demonstrations
-    className: DemonstrationSummary
-  - hash:
-      serializedVersion: 2
-      Hash: bc307d070edf4f5bf960c0d1696cce98
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: MLAgents.Sensors
-    className: CameraSensorComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ball
-  - hash:
-      serializedVersion: 2
-      Hash: 73543240b53d978fb572bf058528ae0e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Robot
   platform: 20
   scenePathNames:
   - "Assets/\u8DB3\u7403.unity"
